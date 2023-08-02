@@ -1,0 +1,8 @@
+pandas 
+numpy
+flask
+tensorflow
+requests
+keras
+opencv
+© 2022 GitHub, Inc.

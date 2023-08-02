@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <style>
+
+
+        h1 {text-align: center;
+            font-family: 'Ubuntu Condensed', sans-serif;
+        
+        }
+
+        h2{
+            text-align: center;
+            font-family: 'Ubuntu Condensed', sans-serif;
+
+        }
+
+        h3{
+            text-align: center;
+            font-family: 'Ubuntu Condensed', sans-serif;
+
+        }
+
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+        body { 
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWqdEnQLET0vlrz-JNMARKtkX1zwcF7Pgjqg&usqp=CAU);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            
+}
+
+        ul {text-align: center;
+            font-family: 'Ubuntu Condensed', sans-serif;
+            list-style-position: inside;
+        
+        }
+
+        li  {text-align: center;
+            font-family: 'Ubuntu Condensed', sans-serif;
+        
+        }
+
+
+
+        form {
+            text-align: center;
+            text-shadow: 5px;
+             font-size: 14px;
+        }
+
+        nav{
+            background-color: black;
+            text-align: center;
+            text-emphasis-color: white;
+            padding: 4px;
+            background-size: cover;
+        }
+
+.Mainheading{
+        text-align: center;
+        background-color:yellow opacity:0.2;
+        opacity:0.8;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        padding-bottom: 30px;
+        padding-top: 5px;
+        font-size: 70px;
+
+    }
+.Subheading{
+        text-align: center;
+        background-color:yellow opacity:0.2;
+        opacity:0.8;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        padding-bottom: 30px;
+        padding-top: 5px;
+        font-size: 50px;
+
+    }
+
+
+    .subbtn{
+        font-weight: bold;
+        font-size:25px;
+        padding: 2px;
+        border: 5px solid black;
+    }
+
+    .btn{
+        font-weight: bold;
+        font-size: 30px;
+        padding: 2px;
+        border: 5px;
+
+    }
+
+    </style>
+
+
+    
+    <title>Covid detection</title>
+</head>
+
+
+<body>
+
+
+
+    <h1 class="Mainheading">COVID-19 DETECTION -  WEB APPLICATION</h1>
+    <br>
+
+    
+    <h3 class="Subheading">Please enter the input </h3>
+
+	
+	<form action="prediction" method="POST" enctype="multipart/form-data">
+        <br>
+        <hr>
+		<input class="btn" type="file" name="img">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+		<input class="subbtn" type="submit" name="btn">
+        <br>
+	</form>
+
+
+</body>
+</html>
